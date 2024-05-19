@@ -1,11 +1,11 @@
+import GameContainer from "./Components/Game/GameContainer";
+import UserContainer from "./Components/User/UserContainer";
 
 function App() {
-  return (
-    <div>
-      Start here ...
-      Good Luck :)
-    </div>
-  );
+  return <> 
+  <UserContainer />
+  <GameContainer />
+  </>;
 }
 
 export default App;
